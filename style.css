@@ -1,0 +1,87 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* ESTILIZAÇÃO GERAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* ESTILIZANDO O CORPO DA PAGINA */
+
+body { 
+    font-family: "Inter", sans-serif;
+    background-color:hsl(0, 0%, 8%) ;
+    
+}
+section  {
+    height: 755px;
+    display: flex;
+}
+/* ESTILIZANDO CARTAO */
+
+.cartao {
+    margin: auto;
+    background-color:hsl(0, 0%, 12%) ;
+    width: 250px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* ESTILIZANDO IMAGEM DE PERFIL */
+.cartao img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 16px 20px 20px 20px;
+}
+/* ESTILIZANDO PALAVRAS */
+/* NOME */
+.cartao h2 {
+    font-size: 20px;
+    color:hsl(0, 0%, 100%) ;
+    margin: 2px;
+    letter-spacing: 1px;
+}
+/* CIDADE */
+.cartao h4 {
+    color:hsl(75, 94%, 57%) ;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 8px 0 20px 0;
+}
+/* FUNÇAO / CARGO */
+.cartao p {
+    color:hsl(0, 0%, 100%) ;
+    font-size: 13px;
+    margin: 0 0 20px 0;
+}
+/* BUTÕES E LINKS */
+.cartao div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 20%) ;
+    margin: 8px 0 8px 0;
+    width: 250px;
+    height: 42px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cartao a {
+    text-decoration: none;
+    color:hsl(0, 0%, 100%) ;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+footer {
+    background-color:hsl(0, 0%, 100%) ;
+}
+.cartao div:hover {
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+    
+}
